@@ -1,7 +1,11 @@
 # DuongThuyTram-24521802-ExtSort
 # 🗂️ Ứng dụng minh hoạ Sắp xếp Ngoại (External Merge Sort)
 
-> Ứng dụng cho phép người dùng chọn tệp dữ liệu nhị phân chứa **số thực double (8 bytes)** và thực hiện **sắp xếp ngoại tăng dần** theo thuật toán **External Merge Sort**, đồng thời minh hoạ quá trình tạo run và trộn nhiều pass.
+> Xây dựng ứng dụng cho phép người dùng chọn lựa tập tin dữ liệu nguồn và sắp xếp dữ liệu trong tập tin này tăng dần. 
+
+Tập tin lưu dữ liệu là các số thực (8bytes) ở dạng tập tin nhị phân
+
+Chương trình cần minh họa quá trình sắp xếp với các tập tin có kích thước nhỏ.
 
 ---
 
@@ -12,10 +16,7 @@
   - [Major Features](#major-features)
   - [Minor Features](#minor-features)
 - [How it works](#how-it-works)
-- [Installation](#installation)
 - [How to run](#how-to-run)
-- [Screenshots](#screenshots)
-- [Tech Stack](#tech-stack)
 - [Author](#author)
 
 ---
