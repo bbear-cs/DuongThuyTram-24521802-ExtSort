@@ -53,9 +53,15 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 ---
 
 ## How to run
+1. Có hai cách để đưa dữ liệu vào :
+- Chọn file có sẵn nếu có
+- Có thể demo input nhanh
 ![ERD](photo/1.1.jpg)
-![ERD](photo/1.2.jpg)
+3. Chọn nơi lưu output
+![ERD](photo/1.2.jpg)\
+3.Bấm SORT
 ![ERD](photo/1.3.jpg)
+4 Xuất kết quả ra file txt để xem hết
 ![ERD](photo/1.4.jpg)
 ![ERD](photo/1.5.jpg)
 ![ERD](photo/1.6.jpg)
