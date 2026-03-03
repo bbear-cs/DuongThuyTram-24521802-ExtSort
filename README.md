@@ -53,7 +53,7 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 ---
 
 ## How to run
-
+![ERD](photo/1.1.jpg)
 ---
 
 ## Installation
