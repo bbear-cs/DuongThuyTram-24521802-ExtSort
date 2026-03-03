@@ -32,9 +32,7 @@ Chào các bạn, mình là **<Tên bạn>**, MSSV **<MSSV>**, lớp **<Lớp>**
 ---
 
 ## Database
-Phần database (ERD) dùng để mô tả **hướng thiết kế** các thực thể trong quá trình sắp xếp.
-
-> ✅ Chèn ảnh ERD tại đây:
+Phần database (ERD) dùng để mô tả hướng thiết kế các thực thể trong quá trình sắp xếp.
 
 ![ERD](database/database.png)
 
