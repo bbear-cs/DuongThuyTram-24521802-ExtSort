@@ -54,6 +54,12 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 
 ## How to run
 ![ERD](photo/1.1.jpg)
+![ERD](photo/1.2.jpg)
+![ERD](photo/1.3.jpg)
+![ERD](photo/1.4.jpg)
+![ERD](photo/1.5.jpg)
+![ERD](photo/1.6.jpg)
+
 ---
 
 ## Installation
