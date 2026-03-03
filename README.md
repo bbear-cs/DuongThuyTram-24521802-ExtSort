@@ -41,16 +41,15 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 ## Features
 
 ### Major Features
-1. Chọn file input `.bin` (double 8 bytes)
-2. Thiết lập `KichThuocRun` và `KichThuocBoDem`
-3. Sắp xếp ngoại tăng dần (External Merge Sort)
+1. Chọn file input `.bin` (double 8 bytes) nếu có sẵn
+2. Chỉnh sửa cấu hình tham số với  `KichThuocRun` và `KichThuocBoDem`
+3. Dùng thuật toán sắp xếp ngoại (External Merge Sort) để sắp xếp
 4. Hiển thị log minh hoạ: tạo run + merge pass
-5. Xuất kết quả: `sorted.bin` và `ketqua_sorted.txt`
+5. Hiển thị kết quả: `sorted.bin` và `ketqua_sorted.txt`
 
 ### Minor Features
-1. Tạo demo input nhanh (random doubles)
-2. Preview kết quả đã sắp xếp trên giao diện
-3. Tự tạo thư mục `runs/` và `temp/` để minh hoạ
+1. Cho phép người dùng tạo demo input nhanh (random doubles) nếu không có dữ liệu sẵn 
+2. Hiển thị kết quả đã sắp xếp trên giao diện
 
 ---
 
