@@ -56,8 +56,9 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 1. Có hai cách để đưa dữ liệu vào :
 - Chọn file có sẵn nếu có
 - Có thể demo input nhanh
+- 
 ![ERD](photo/1.1.jpg)
-3. Chọn nơi lưu output
+2. Chọn nơi lưu output
 ![ERD](photo/1.2.jpg)\
 3.Bấm SORT
 ![ERD](photo/1.3.jpg)
