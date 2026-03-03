@@ -36,7 +36,7 @@ Phần database (ERD) dùng để mô tả **hướng thiết kế** các thực
 
 > ✅ Chèn ảnh ERD tại đây:
 
-![ERD](photo/Screenshot 2026-03-03 234012.png)
+![ERD](photo/database.png)
 
 ---
 
