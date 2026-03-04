@@ -37,6 +37,31 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 ![ERD](database/database.png)
 
 ---
+## Base-lined knowledge
+Để hiểu và sử dụng đồ án này hiệu quả, người đọc nên có các kiến thức nền tảng sau:
+
+### 1) Kiến thức về dữ liệu & file nhị phân
+- **Tệp nhị phân (.bin)**: dữ liệu được lưu dưới dạng byte (không phải text).
+- **Double (8 bytes)**: mỗi số thực `double` chiếm đúng 8 byte; khi đọc/ghi cần đọc theo bội số của 8.
+- **File I/O**: thao tác đọc/ghi file nhị phân (binary read/write), đọc theo khối (block) thay vì đọc từng byte.
+
+### 2) Kiến thức thuật toán sắp xếp
+- **Sắp xếp trong bộ nhớ (in-memory sort)**: hiểu khái niệm sort tăng dần khi dữ liệu đủ nhỏ để đưa vào RAM.
+- **External Merge Sort (sắp xếp ngoại)**:
+  - **Run generation**: chia dữ liệu thành các run nhỏ đủ RAM để sort.
+  - **Multi-pass merge**: trộn các run qua nhiều lượt (pass) cho đến khi còn 1 file kết quả.
+- **Buffering**: dùng bộ đệm khi merge 2 file để giảm số lần I/O và minh hoạ đúng bản chất “sắp xếp ngoại”.
+
+### 3) Kiến thức về Database/SQL (phần thiết kế)
+- **ERD (Entity Relationship Diagram)**: hiểu khái niệm thực thể, thuộc tính và mối quan hệ (1–n, n–n).
+- **Khoá chính (Primary Key) & Khoá ngoại (Foreign Key)**: dùng để liên kết các bảng và thể hiện quan hệ giữa thực thể.
+- **SQL cơ bản** (để đọc hiểu thiết kế):
+  - `CREATE DATABASE`, `CREATE TABLE`
+  - Ràng buộc `PRIMARY KEY`, `FOREIGN KEY`
+  - Các lệnh thao tác dữ liệu: `SELECT`, `INSERT` (nếu có lưu log/kết quả)
+
+> Ghi chú: ERD trong đồ án dùng để mô tả “hướng thiết kế” và luồng xử lý của chương trình (TệpTin → PhiênSắpXếp → Run → LượtTrộn → KếtQuả). Thuật toán sắp xếp vẫn thực hiện trên **file nhị phân**, không bắt buộc phải chạy sắp xếp bằng SQL.
+---
 
 ## Features
 
