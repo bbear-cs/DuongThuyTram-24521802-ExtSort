@@ -45,7 +45,7 @@ Phần database (ERD) dùng để mô tả các “thành phần” trong quá t
 - **File I/O**: thao tác đọc/ghi file nhị phân (binary read/write), đọc theo khối (block) thay vì đọc từng byte
 
 ### 2) Kiến thức thuật toán sắp xếp
-- **Sắp xếp trong bộ nhớ **
+- Sắp xếp trong bộ nhớ 
 - **External Merge Sort (sắp xếp ngoại)**
 
 ### 3) Kiến thức về SQL
